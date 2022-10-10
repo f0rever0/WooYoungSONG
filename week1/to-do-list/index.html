@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <p class="title">💪 To-do-list</p>
+    </header>
+    <nav>
+        <button>오늘 할 일</button>
+        <button>내일 할 일</button>
+        <button>전체보기</button>
+    </nav>
+    <main>
+        <section class="left-section">
+            <section class="toomorrow-section">
+                <h2>오늘 할 일</h2>
+            </section>
+            <section class="input-wrapper">
+                <input type="text" placeholder="오늘 할 일을 추가하세요"/>
+                <button type="button" class="input-button"> + </button>
+            </section>
+        </section>
+        <section class="right-section">
+            <section class="toomorrow-section">
+                <h2>내일 할 일</h2>
+                <ul>
+                    <li class="today-list">
+                        <span>sopt 1차 과제</span>
+                        <span class="material-icons"> delete </span>
+                    </li>
+                    <li class="today-list">
+                        <span>sopt 스터디 신청</span>
+                        <span class="material-icons"> delete </span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="input-wrapper">
+                <input type="text" placeholder="내일 할 일을 추가하세요"/>
+                <button type="button" input-button"> + </button>
+            </section>
+        </section>
+    </main>
+    <footer class="to-do-list-footer">
+        Copyright © IN SOPT
+    </footer>
+</body>
+</html>
