@@ -1,0 +1,65 @@
+.tags-main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tags-input{
+    border : none;
+    appearance: none;
+    outline : none;
+    padding-top : 1rem;
+}
+
+.tags-list{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+    padding: 0;
+}
+
+.tag-item{
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: rgb(0 0 0 / 8%) 0px 0px 8px;
+    height: 2rem;
+    padding: 0 1rem;
+    margin: 1rem;
+    color: rgb(36, 198, 144);
+    background-color:  #F8F9FA;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.home-button{
+    height: 2rem;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    background: #212529;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.125s ease-in 0s;
+    cursor: pointer;
+}
+
+.home-button a{
+    color: white;
+    text-decoration: none;
+}
+
+.home-button:hover{
+    border: 1px solid #212529;
+    background: #F8F9FA;
+    color: #212529;
+}
+
+.home-button a:hover{
+    color: #212529;
+}
