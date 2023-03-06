@@ -1,4 +1,4 @@
-# 31기 IN SOPT WEB 파트
+# IN SOPT 31기 WEB 파트 과제 
 
 
 <table>
